@@ -67,5 +67,5 @@ def action_wrapper(hermes, intentMessage, conf):
 
 if __name__ == "__main__":
     with Hermes("localhost:1883") as h:
-        h.subscribe_intent("ndy1982:setValue", subscribe_intent_callback) \
+        h.subscribe_intent("medienzuflucht:setValue", subscribe_intent_callback) \
          .start()
